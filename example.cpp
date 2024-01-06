@@ -1,4 +1,8 @@
+#ifdef STL
+#include <ctpl_stl.h>
+#else
 #include <ctpl.h>
+#endif
 #include <iostream>
 #include <string>
 
